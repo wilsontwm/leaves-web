@@ -1,0 +1,38 @@
+#components-layout-demo-side .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #000;
+}
+
+.ant-layout-sider {
+  background: #fff;
+}
+
+.ant-drawer-title {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.ant-picker-time-panel-column
+  > li.ant-picker-time-panel-cell-selected
+  .ant-picker-time-panel-cell-inner {
+  color: #fff;
+}
+
+.ant-tabs-card > .ant-tabs-nav .ant-tabs-tab-active,
+.ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab-active {
+  background: #0d3970;
+  color: #fff;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #fff;
+  text-shadow: 0 0 0.25px currentColor;
+}
